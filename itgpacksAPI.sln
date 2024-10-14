@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "itgpacksAPI", "itgpacksAPI\itgpacksAPI.csproj", "{BBA6B64F-C753-42A4-9BF3-6758DE3AE7DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBA6B64F-C753-42A4-9BF3-6758DE3AE7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA6B64F-C753-42A4-9BF3-6758DE3AE7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA6B64F-C753-42A4-9BF3-6758DE3AE7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA6B64F-C753-42A4-9BF3-6758DE3AE7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E7469DE-E312-4D90-894B-EC649221C2D2}
+	EndGlobalSection
+EndGlobal

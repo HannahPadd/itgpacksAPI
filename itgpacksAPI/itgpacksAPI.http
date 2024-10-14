@@ -1,0 +1,6 @@
+@itgpacksAPI_HostAddress = http://localhost:5160
+
+GET {{itgpacksAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
