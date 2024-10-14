@@ -17,13 +17,12 @@ namespace itgpacksAPI
         {
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
-            var DbPath = System.IO.Path.Join(path, "Data/ItgPacksDB.db");
+            var DbPath = System.IO.Path.Join(path, "data/ItgPacksDB.db");
             services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
             services.AddDbContext<ItgPacksContext>(options => options.UseSqlite($"Data Source = {DbPath}"));
-            
         }
 
         public void Configure(WebApplication app, IWebHostEnvironment env)

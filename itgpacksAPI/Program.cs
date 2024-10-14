@@ -18,7 +18,7 @@ namespace itgpacksAPI
                 var context = serviceScope.ServiceProvider.GetRequiredService<ItgPacksContext>();
                 context.Database.EnsureCreated();
             }
-                startup.Configure(app, builder.Environment);
+            startup.Configure(app, builder.Environment);
         }
     }
 }

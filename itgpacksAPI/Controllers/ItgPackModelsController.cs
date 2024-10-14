@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using itgpacksAPI;
 using itgpacksAPI.Models;
+using System.Web.Http.Cors;
 
 namespace itgpacksAPI.Controllers
 {
+    /*[EnableCors(origins: "*", headers: "*", methods: "*")]*/
     [Route("api/[controller]")]
     [ApiController]
     public class ItgPackModelsController(ItgPacksContext context) : ControllerBase

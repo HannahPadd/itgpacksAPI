@@ -30,7 +30,6 @@
     },
     "Container (Dockerfile)": {
       "commandName": "Docker",
-      "commandLineArgs": "-v data:/data",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
       "environmentVariables": {
@@ -38,7 +37,8 @@
         "ASPNETCORE_HTTP_PORTS": "8080"
       },
       "publishAllPorts": true,
-      "useSSL": true
+      "useSSL": true,
+      "DockerfileRunArguments": "-v C:\\dev\\packclient\\data:/app/data"
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
